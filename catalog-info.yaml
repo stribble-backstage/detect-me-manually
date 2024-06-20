@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: detect-me-manually
+  description: This is a service to be manually picked up by Backstage
+  owner: team-a
+  tags:
+    - tag
+    - tag2
+spec:
+  type: service
+  lifecycle: production
+  system: user-management
